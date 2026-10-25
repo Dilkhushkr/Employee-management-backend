@@ -1,0 +1,27 @@
+# Dependencies
+node_modules/
+
+# Environment variables (secrets like DB URL, JWT secret)
+.env
+.env.*
+!.env.example
+
+# Build output
+dist/
+build/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor folders
+.vscode/
+.idea/
+
+# Duplicate lockfile created by mistake
+package-lock 2.json
